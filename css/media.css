@@ -103,6 +103,9 @@
     .order__btn{
         margin: 0 auto;
     }
+    .dishes{
+        height: 1200px;
+    }
     .dishes__inner h2{
         display: flex;
         flex-direction: column;
@@ -126,5 +129,50 @@
     }
     .dishes__text{
         flex-direction: column;
+    }
+    .menu__item:nth-child(2), .menu__item:nth-child(3){
+        display: none;
+    }
+    .menu__item{
+        padding: 80px 40px 30px;
+    }
+    .feedback{
+        height: 600px;
+    }
+    .feedback__inner{
+        padding: 50px 0;
+    }
+    .feedback__inner p{
+        width: 290px;
+    }
+    .gallery{
+        height: 2200px;
+    }
+    .gallery::before, .gallery::after{
+        display: none;
+    }
+    .gallery h2{
+        width: 145px;
+        margin: 0 auto;
+    }
+    .gallery__inner{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .left__main, .right__main{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .gallery img{
+        width: 314px;
+        height: 314px;
+        object-fit: cover;
+    }
+    .cook{
+        height: 1600px;
+    }
+    .cook__inner{
+        flex-direction: column;
+        row-gap: 30px;
     }
 }
